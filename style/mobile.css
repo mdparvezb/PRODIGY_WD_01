@@ -1,0 +1,267 @@
+/* Mobile Device */
+@media screen and (max-width: 800px) {
+  body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
+  .nav-bar {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    gap: 30px;
+  }
+
+  .logo-div {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .menu-div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .search-div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .section-one {
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-y: hidden;
+  }
+
+  .section-one-main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15%;
+  }
+
+  .section-one-main h1 {
+    font-size: 3rem;
+  }
+
+  .section-two {
+    width: 100%;
+  }
+
+  .section-two h2 {
+    font-size: 18px;
+  }
+
+  .section-three {
+    width: 100%;
+  }
+
+  .section-three-main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section-three-main .left {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .section-three-main .right {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .section-three-main .right h2 {
+    font-size: 20px;
+  }
+
+  .section-three-main .right h4 {
+    font-size: 16px;
+  }
+
+  .section-four {
+    width: 100%;
+    background-size: cover;
+    background-position: right;
+  }
+
+  section-four-main {
+    width: 100%;
+  }
+
+  .section-five {
+    width: 100%;
+  }
+
+  .section-five-main {
+    width: 100%;
+  }
+
+  .section-five-cards-div {
+    width: 100%;
+  }
+
+  .section-five-cards-div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .row-one,
+  .row-two {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .row-one-card,
+  .row-two-card {
+    width: 100%;
+  }
+
+  .section-six {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    background-position: right;
+    background-size: cover;
+  }
+
+  .section-six-main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  .section-six-content {
+    width: 80%;
+  }
+
+  .section-seven,
+  .section-seven-main {
+    width: 100%;
+    text-align: center;
+  }
+
+  .section-eight,
+  .section-eight-main {
+    width: 100%;
+    height: auto;
+  }
+
+  .section-eight-content {
+    width: 100%;
+    height: auto;
+    text-align: center;
+  }
+
+  .section-eight-score {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .section-nine {
+    width: 100%;
+    height: auto;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .section-nine-main {
+    width: 100%;
+    height: 100%;
+  }
+
+  .section-nine-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .section-nine-img {
+    width: 100%;
+    height: 60vh;
+    border-radius: 5px;
+  }
+
+  .section-nine-form {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    padding: 20px 0;
+    text-align: center;
+  }
+
+  .section-nine-form form {
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  .section-ten {
+    width: 100%;
+    padding: 20px 0;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .section-ten div:nth-child(1) {
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .section-ten div:nth-child(2) {
+    width: 100%;
+  }
+
+  .section-ten div:nth-child(2) img:nth-child(4),
+  .section-ten div:nth-child(2) img:nth-child(5) {
+    display: none;
+  }
+
+  .big-footer {
+    width: 100%;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 4fr 4fr;
+    justify-items: center;
+  }
+
+  .small-footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+}
