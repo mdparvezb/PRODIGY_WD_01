@@ -27,10 +27,6 @@ body {
   top: 0;
 }
 
-/* .menu-items a:hover {
-    color: orange;
-} */
-
 .menu-items a {
   position: relative;
   height: 80%;
@@ -38,14 +34,14 @@ body {
   align-items: center;
   font-weight: 500;
   text-decoration: none;
-  color: black;
+  color: blue;
   border-radius: 99px;
   letter-spacing: 1px;
 }
 
 .menu-items li {
   font-weight: 500;
-  color: #000;
+  color: navy;
 }
 
 .menu-items li::after {
@@ -495,7 +491,6 @@ hr {
 .team-card {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   width: 25%;
   border-radius: 8px;

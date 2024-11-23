@@ -1,8 +1,13 @@
-/* Mobile Device */
+/* Ipad Device */
 @media screen and (max-width: 800px) {
   body {
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
+  }
+
+  .main-container {
+    width: 100%;
     overflow-x: hidden;
   }
 
@@ -263,5 +268,359 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
+  }
+}
+
+/* Mobile Devices */
+@media screen and (max-width: 500px) {
+  body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
+  .main-container {
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  .nav-bar {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    font-size: 12px;
+    gap: 5px;
+  }
+
+  .logo-div {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .menu-div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .search-div {
+    width: 100%;
+    display: flex;
+    padding-top: 10px;
+    justify-content: center;
+  }
+
+  .section-one {
+    width: 100%;
+    height: 60vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .section-one-main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15%;
+  }
+
+  .section-one-main h1 {
+    font-size: 2rem;
+  }
+
+  .section-two {
+    width: 100%;
+  }
+
+  .section-two h2 {
+    font-size: 18px;
+  }
+
+  .section-three {
+    width: 100%;
+    padding: 20px 5px;
+  }
+
+  .section-three-main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 10px;
+  }
+
+  .section-three-main .left {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .section-three-main .right {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .section-three-main .right h2 {
+    font-size: 20px;
+  }
+
+  .section-three-main .right h4 {
+    font-size: 16px;
+  }
+
+  .about-icons {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .section-four {
+    width: 100%;
+    height: 60vh;
+    background-size: cover;
+    background-position: right;
+  }
+
+  section-four-main {
+    width: 100%;
+    height: 100%;
+    padding: 80px 20px;
+  }
+
+  .section-four-main h2 {
+    font-size: 20px;
+    color: #fff;
+    padding: 10px 10px;
+  }
+
+  .section-five {
+    width: 100%;
+    padding: 50px 10px;
+    text-align: center;
+  }
+
+  .section-five-main {
+    width: 100%;
+  }
+  .section-five-main h2 {
+    font-size: 24px;
+  }
+
+  .section-five-cards-div {
+    width: 100%;
+  }
+
+  .section-five-cards-div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .row-one,
+  .row-two {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .row-one-card,
+  .row-two-card {
+    width: 100%;
+  }
+
+  .section-six {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    background-position: right;
+    background-size: cover;
+  }
+
+  .section-six-main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  .section-six-content {
+    width: 90%;
+    font-size: 14px;
+    padding: 50px 50px 20px;
+  }
+
+  .section-seven {
+    width: 100%;
+    padding: 50px 30px 50px 30px;
+    text-align: center;
+  }
+  .section-seven-main {
+    width: 100%;
+    text-align: center;
+  }
+
+  .section-seven h2 {
+    font-size: 24px;
+    padding-bottom: 30px;
+  }
+
+  .team-cards-main {
+    gap: 10px;
+  }
+
+  .team-card h5 {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 12px;
+  }
+
+  .team-card p {
+    font-size: 10px;
+  }
+
+  .section-eight {
+    width: 100%;
+    height: auto;
+    padding: 40px 0;
+  }
+  .section-eight-main {
+    width: 100%;
+    height: auto;
+  }
+
+  .section-eight-content {
+    width: 100%;
+    height: auto;
+    text-align: center;
+  }
+  .section-eight-content > h2 {
+    font-size: 24px;
+  }
+
+  .section-eight-score {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .section-nine {
+    width: 100%;
+    height: auto;
+    background-position: center;
+    background-size: cover;
+    padding: 40px 0px;
+  }
+
+  .section-nine-main {
+    width: 100%;
+    height: auto;
+    padding: 20px 20px;
+  }
+
+  .section-nine-main h2 {
+    font-size: 24px;
+    padding: 20px 0;
+  }
+
+  .section-nine-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .section-nine-img {
+    width: 100%;
+    height: 60vh;
+    border-radius: 5px;
+  }
+
+  .section-nine-form {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    padding: 10px 0;
+    text-align: center;
+  }
+
+  .section-nine-form form {
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  .section-ten {
+    width: 100%;
+    padding: 20px 0;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .section-ten div:nth-child(1) {
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .section-ten div:nth-child(2) {
+    width: 100%;
+  }
+
+  .section-ten div:nth-child(2) img:nth-child(4),
+  .section-ten div:nth-child(2) img:nth-child(5) {
+    display: none;
+  }
+
+  .big-footer {
+    width: 100%;
+    display: grid;
+    gap: 5px;
+    padding: 10px;
+    grid-template-columns: 4fr 4fr;
+    justify-items: center;
+  }
+
+  .footer-col1,
+  .footer-col2,
+  .footer-col3,
+  .footer-col4 {
+    width: 100%;
+    padding: 10px;
+  }
+  .footer-col1 h3,
+  .footer-col2 h3,
+  .footer-col3 h3,
+  .footer-col4 h3 {
+    font-size: 14px;
+  }
+
+  .small-footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 15px 30px;
   }
 }
